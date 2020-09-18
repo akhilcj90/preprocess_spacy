@@ -3,7 +3,7 @@ import sys
 import os
 
 import spacy
-
+nlp = spacy.load('en_core_web_sm')
 import pandas as pd
 import numpy as np
 from spacy.lang.en.stop_words import STOP_WORDS as stopwords
